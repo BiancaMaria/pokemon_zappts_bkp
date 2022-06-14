@@ -53,20 +53,20 @@ export const Main = styled.main`
   }
 `;
 
-export const ButtonLink = styled.button`
+export const ButtonLink = styled.a`
   background: #48d0b0;
   color: #fff;
   border-style: none;
   border-radius: 11px;
+  text-decoration: none;
   cursor: pointer;
   font-weight: bold;
   width: 182px;
-  height: 50px;
+  height: 38px;
   box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.18);
   padding-left: 26px;
-  padding-right: 26px;
-  padding-top: 18px;
-  padding-bottom: 24px;
+  padding-top: 16px;
+  
 `;
 
 export const Sidebar = styled.aside`

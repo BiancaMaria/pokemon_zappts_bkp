@@ -24,7 +24,7 @@ function App() {
         <Main className="contenido">
           <p className="title">Qual pokemón você escolheria?</p>
           <p className="subtitle">Você pode saber o tipo de Pokémon, seus pontos fortes, fracos e habilidades.</p>
-          <ButtonLink>Veja os pokemons</ButtonLink>
+          <ButtonLink href="#">Veja os pokemons</ButtonLink>
         </Main>
 
         <Sidebar className="sidebar">
