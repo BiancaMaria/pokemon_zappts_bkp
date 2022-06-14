@@ -12,27 +12,74 @@ export const Container = styled.div`
 
 export const Header = styled.header`
   grid-area: header;
-  /* background: rgba(0, 0, 0, 0.16); */
-  /* border: 1px solid yellow; */
-  background:orange;
+  background: orange;
   display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
-  min-height:70px;
+  min-height: 70px;
 `;
 
 export const Main = styled.main`
   grid-area: contenido;
-  padding-left: 2%;
+  min-height:115%;
+  width: 100%;
+  padding-left:4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* border:1px solid pink;  */
+  display: flex;
+  position: relative;
+  p.title {
+    /* border:1px solid red;  */
+    height: 152px;
+    width:454px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 76px;
+  }
+  p.subtitle {
+    /* border:1px solid blue;  */
+    font-size: 16px;
+    line-height: 36px;
+    font-weight:400;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    width: 438px;
+    height: 72px;
+  }
 `;
+
+export const ButtonLink = styled.button`
+  background: #48d0b0;
+  color: #fff;
+  border-style: none;
+  border-radius: 11px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 182px;
+  height: 50px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.18);
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  padding-bottom: 24px;
+`;
+
 export const Sidebar = styled.aside`
   grid-area: sidebar;
-  background: green;
-  min-height: 100px;
+  /* border:1px solid green;  */
+  height: 482px;
+  width: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
+  img{
+    width: 100%;
+  }
 `;
 export const Widget = styled.div`
   grid-area: ${(props) =>
@@ -50,19 +97,5 @@ export const Footer = styled.footer`
   grid-area: footer;
   padding: 20px;
   position: relative;
-  color: #fff;
+  text-align: center;
 `;
-
-// .ImgLogo{
-//   border: 1px solid red;
-//   position: absolute;
-//   width: 142px;
-//   height: 51px;
-//   left: 115px;
-//   top: 708px;
-// }
-
-
-  
-
-

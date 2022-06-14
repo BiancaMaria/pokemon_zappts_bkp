@@ -1,12 +1,13 @@
 import GlobalStyles from "./styles/global";
 import Navbar from "./components/Navbar";
+import ImgHero from "./assets/ashKetchum.svg";
 
 import {
   Container,
   Header,
   Main,
+  ButtonLink,
   Sidebar,
-  Widget,
   Footer,
 } from "./styles/layout";
 
@@ -21,16 +22,20 @@ function App() {
         </Header>
 
         <Main className="contenido">
-          <h2>Qual pokemón você escolheria?</h2>
+          <p className="title">Qual pokemón você escolheria?</p>
+          <p className="subtitle">Você pode saber o tipo de Pokémon, seus pontos fortes, fracos e habilidades.</p>
+          <ButtonLink>Veja os pokemons</ButtonLink>
         </Main>
 
-        <Sidebar className="sidebar">Sidebar</Sidebar>
-
+        <Sidebar className="sidebar">
+          <img src={ImgHero} alt="Ash-e-pikachu" />
+        </Sidebar>
+{/* 
         <Widget className="widget-1">Widget-1</Widget>
-        <Widget className="widget-2">Widget-2</Widget>
+        <Widget className="widget-2">Widget-2</Widget> */}
 
         <Footer className="footer">
-          
+          Footer
         </Footer>
       </Container>
     </>
