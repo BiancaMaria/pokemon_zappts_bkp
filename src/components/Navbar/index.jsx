@@ -6,10 +6,6 @@ import menu from "../../assets/menu.svg";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // const toggleMenu = () => {
-  //   setShow(!show);
-  // };
-
   return (
     <Nav>
       <img className="ImgLogo" src={Logo} alt="Logo-do-pokemon" />
