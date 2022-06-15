@@ -32,41 +32,6 @@ export const Main = styled.main`
   /* border:1px solid pink;  */
   display: flex;
   position: relative;
-  p.title {
-    /* border:1px solid red;  */
-    height: 152px;
-    width:454px;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 54px;
-    line-height: 76px;
-  }
-  p.subtitle {
-    /* border:1px solid blue;  */
-    font-size: 16px;
-    line-height: 36px;
-    font-weight:400;
-    font-style: normal;
-    letter-spacing: 0.02em;
-    width: 438px;
-    height: 72px;
-  }
-`;
-
-export const ButtonLink = styled.a`
-  background: #48d0b0;
-  color: #fff;
-  border-style: none;
-  border-radius: 11px;
-  text-decoration: none;
-  cursor: pointer;
-  font-weight: bold;
-  width: 182px;
-  height: 38px;
-  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.18);
-  padding-left: 26px;
-  padding-top: 16px;
-  
 `;
 
 export const Sidebar = styled.aside`

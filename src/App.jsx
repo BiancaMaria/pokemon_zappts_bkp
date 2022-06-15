@@ -1,12 +1,12 @@
 import GlobalStyles from "./styles/global";
 import Navbar from "./components/Navbar";
 import ImgHero from "./assets/ashKetchum.svg";
+import Home from "./components/Home";
 
 import {
   Container,
   Header,
   Main,
-  ButtonLink,
   Sidebar,
   Footer,
 } from "./styles/layout";
@@ -22,9 +22,7 @@ function App() {
         </Header>
 
         <Main className="contenido">
-          <p className="title">Qual pokemón você escolheria?</p>
-          <p className="subtitle">Você pode saber o tipo de Pokémon, seus pontos fortes, fracos e habilidades.</p>
-          <ButtonLink href="#">Veja os pokemons</ButtonLink>
+          <Home/>
         </Main>
 
         <Sidebar className="sidebar">
