@@ -1,13 +1,12 @@
 import GlobalStyles from "./styles/global";
 import Navbar from "./components/Navbar";
-import ImgHero from "./assets/ashKetchum.svg";
+// import ImgHero from "./assets/ashKetchum.svg";
 import Home from "./components/Home";
 
 import {
   Container,
   Header,
   Main,
-  Sidebar,
   Footer,
 } from "./styles/layout";
 
@@ -25,9 +24,6 @@ function App() {
           <Home/>
         </Main>
 
-        <Sidebar className="sidebar">
-          <img src={ImgHero} alt="Ash-e-pikachu" />
-        </Sidebar>
 {/* 
         <Widget className="widget-1">Widget-1</Widget>
         <Widget className="widget-2">Widget-2</Widget> */}

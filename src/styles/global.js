@@ -43,8 +43,6 @@ const GlobalStyles = createGlobalStyle`
     grid-template-areas: "header header header"
                         "contenido contenido contenido"
                         "sidebar sidebar sidebar"
-                        "widget-1 widget-1 widget-1"
-                        "widget-2 widget-2 widget-2"
                         "footer footer footer"
     ;
     }
@@ -56,31 +54,30 @@ const GlobalStyles = createGlobalStyle`
     grid-template-areas:    "header header header"
                             "contenido contenido contenido"
                             "sidebar sidebar sidebar"
-                            "widget-1 widget-1 widget-2"
                             "footer footer footer"
     ;
     }    
     }
     
-    /*min 1024px*/
+    /*min 1024px - aqui*/
     @media screen and (min-width: 1024px){
     .contenedor{
     grid-template-areas:    "header header header"
-                            "contenido contenido sidebar"
-                            "widget-1 widget-2 sidebar"
+                            "contenido contenido contenido"
+                            "widget-1 widget-2 contenido"
                             "footer footer footer"
     ;
     }
     
     }
     
-    /*min 1280px*/
+    /*min 1280px - aqui*/
     @media screen and (min-width: 1280px){
     .contenedor{
     grid-template-areas:    "header header header"
-                            "contenido contenido sidebar"
-                            "widget-1 widget-1 sidebar"
-                            "widget-2 widget-2 sidebar"
+                            "contenido contenido contenido"
+                            "widget-1 widget-1 contenido"
+                            "widget-2 widget-2 contenido"
                             "footer footer footer"
     ;
     }

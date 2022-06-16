@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ashketchum from "../../assets/ashKetchum.svg";
 
 function Home() {
   return (
@@ -9,6 +10,10 @@ function Home() {
         habilidades.
       </Subtitle>
       <ButtonLink href="#">Veja os pokemons</ButtonLink>
+
+      <ImgHero>
+        <img src={ashketchum} className="ImgKetchum" alt="foto-do-Ash-Ketchum" />
+      </ImgHero>
     </>
   );
 }
@@ -47,4 +52,21 @@ export const ButtonLink = styled.a`
   box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.18);
   padding-left: 26px;
   padding-top: 16px;
+`;
+
+export const ImgHero = styled.div`
+  border: 1px solid green;
+  width:400px;
+  height: 336px;
+  position: absolute;
+  margin-left:550px;
+  margin-top: 100px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: -6.92%;
+  img.ImgKetchum{
+    width:100%;
+    border:1px solid red;
+  }
 `;

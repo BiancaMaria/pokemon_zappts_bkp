@@ -22,30 +22,29 @@ export const Header = styled.header`
 
 export const Main = styled.main`
   grid-area: contenido;
-  min-height:115%;
-  width: 100%;
+  overflow: hidden;
   padding-left:4%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  /* border:1px solid pink;  */
+  border:1px solid pink;  
   display: flex;
   position: relative;
 `;
 
-export const Sidebar = styled.aside`
+
+export const Sidebar = styled.div`
   grid-area: sidebar;
-  /* border:1px solid green;  */
+  border:1px solid purple;  
   height: 482px;
   width: 450px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  img{
+  /* img{
     width: 100%;
-  }
+  } */
 `;
+
+
 export const Widget = styled.div`
   grid-area: ${(props) =>
     props.className === "widget-1" ? "widget-1" : "widget-2"}; //área
