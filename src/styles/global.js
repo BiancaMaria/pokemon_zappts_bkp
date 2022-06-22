@@ -42,7 +42,6 @@ const GlobalStyles = createGlobalStyle`
   .contenedor {
     grid-template-areas: "header header header"
                         "contenido contenido contenido"
-                        "sidebar sidebar sidebar"
                         "footer footer footer"
     ;
     }
@@ -53,7 +52,6 @@ const GlobalStyles = createGlobalStyle`
     .contenedor{
     grid-template-areas:    "header header header"
                             "contenido contenido contenido"
-                            "sidebar sidebar sidebar"
                             "footer footer footer"
     ;
     }    
