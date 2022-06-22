@@ -1,6 +1,6 @@
 import GlobalStyles from "./styles/global";
 import Navbar from "./components/Navbar";
-import ImgHero from "./assets/ashKetchum.svg";
+import ImgHero from "./assets/Banner.svg";
 import Home from "./components/Home";
 
 import {

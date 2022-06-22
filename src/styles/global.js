@@ -7,23 +7,18 @@ const GlobalStyles = createGlobalStyle`
   //   box-sizing: border-box;
   // }
 
-  // html {
-  //   font-size: 97.5%;
-  // }
-  // html, body {
-  //   height: 100%;
-  // }
+  html {
+    font-size: 97.5%;
+  }
+  html, body {
+    height: 100%;
+  }
 
-  // #root {
-  //   max-width: 1080px;
-  //   margin: 0 auto;
-  //   padding: 40px 20px;
-  // }
-
-  // body{ 
-  //   font-family:'Inter', sans-serif;
-  //   color:red;
-  // }
+  #root{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
 
   body {
     margin: 0;
